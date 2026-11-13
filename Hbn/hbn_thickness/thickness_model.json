@@ -1,0 +1,20 @@
+{
+  "feature_names": [
+    "mean_L",
+    "mean_G",
+    "ratio_G",
+    "dL"
+  ],
+  "coefficients": [
+    8.555913392179502,
+    -0.7019320285888868,
+    0.2783548031257641,
+    -55.399883316987356,
+    -0.8987587101251484
+  ],
+  "n_train": 179,
+  "mae_loo": 3.73631407574469,
+  "rmse_loo": 5.277383559805622,
+  "r2_loo": 0.7046153028018092,
+  "source_xlsx": "D:\\C++\\Layer-Detector-FrontEnd-Development-main\\curr_recon_code\\hbn\\file_model.xlsx"
+}

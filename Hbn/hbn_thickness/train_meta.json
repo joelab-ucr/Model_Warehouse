@@ -1,0 +1,57 @@
+{
+  "data_meta": {
+    "n_total_rows": 621,
+    "n_zero": 424,
+    "n_no_label": 0,
+    "n_no_thickness": 6,
+    "n_bad_feat": 0,
+    "n_no_block": 0,
+    "n_images_nonzero": 185,
+    "n_multi_images": 6,
+    "n_kept": 179,
+    "grade_counts": {
+      "3": 129,
+      "2": 31,
+      "1": 19
+    },
+    "skipped_range_names": [
+      "0.7_10.2.jpg",
+      "19-33nm.jpg",
+      "25.0-50.0nm.jpg",
+      "6.8-21.4nm.jpg"
+    ],
+    "keep_multi": false
+  },
+  "loo": {
+    "mae": 3.73631407574469,
+    "rmse": 5.277383559805622,
+    "r2": 0.7046153028018092,
+    "n": 179.0
+  },
+  "formula": "thickness \u2248 8.55591 - 0.701932*mean_L + 0.278355*mean_G - 55.3999*ratio_G - 0.898759*dL",
+  "extra_trees": {
+    "path": "D:\\C++\\Layer-Detector-FrontEnd-Development-main\\curr_recon_code\\hbn\\hbn_thickness\\thickness_et.joblib",
+    "feature_names": [
+      "dL",
+      "dA",
+      "dB",
+      "delta_chroma",
+      "mean_L",
+      "mean_A",
+      "mean_B_lab",
+      "mean_G",
+      "ratio_R",
+      "ratio_G",
+      "ratio_B",
+      "sum",
+      "area"
+    ],
+    "loo": {
+      "mae": 3.257997017927291,
+      "rmse": 4.6974133785016745,
+      "r2": 0.7659717778487849,
+      "n": 179.0
+    },
+    "n_train": 179
+  }
+}
